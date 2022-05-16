@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"firebase.google.com/go/v4/internal"
+	"firebase.google.com/go/v4"
 	"google.golang.org/api/transport"
 )
 
