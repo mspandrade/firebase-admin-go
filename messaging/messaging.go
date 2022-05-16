@@ -110,6 +110,7 @@ type Notification struct {
 	Title    string `json:"title,omitempty"`
 	Body     string `json:"body,omitempty"`
 	ImageURL string `json:"image,omitempty"`
+	ClickAction string `json:"click_action,omitempty"`
 }
 
 // AndroidConfig contains messaging options specific to the Android platform.
